@@ -27,10 +27,42 @@
         }   
       }
       
+      .icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
     </style>
   </head>
   <body>
     <i onclick="myFunction(this)" class="fa fa-adjust" style="font-size:36px"></i>
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a> 
+      <a href="https://www.shemajean.be"><i class="fa fa-globe"></i></a> 
+      <a href="https://www.instagram.com/jean_de_la_croix_shema/"><i class="fa fa-instagram"></i></a> 
+      <a href="https://www.linkedin.com/in/jean-shema-aa0272105/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.shemajean.be/#contact"><i class="fa fa-address-book-o"></i></a> 
+    </div>
+    
     <h1>Plans électriques</h1>
     <div class="img">
       <img src="images/Coffret_electrique.JPEG" alt="Coffret électrique" />
