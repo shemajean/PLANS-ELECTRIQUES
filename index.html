@@ -8,6 +8,26 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b76eec08f4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Plans électriques pdf</title>
     <style>
       body { background-color: cornsilk; color:black; font-family: Arial, sans-serif; margin: 20px; }
@@ -103,6 +123,49 @@
     </style>
 </head>
 <body>
+        <div class="navbar-fixed">
+      <nav class="teal darken-4">
+        <div class="container nav-wrapper">
+          <a href="https://www.shemajean.be">
+            <img
+            class="brand-logo"
+            src="images/logo_shema.jpg"
+            width="115"
+            height="115"
+          />
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li>
+              <a href="https://shemajc.wixsite.com/electricien" target="_blank"
+                >Old website</a
+              >
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="social">
+              <a
+                href="https://www.linkedin.com/in/jean-shema-aa0272105/"
+                target="_blank"
+                ><i class="fa-brands icon_white fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/jean_de_la_croix_shema"
+                target="_blank"
+                ><i class="fa-brands icon_white fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/shemajean5" target="_blank"
+                ><i class="fa-brands icon_white fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <i onclick="myFunction(this)" class="fa fa-adjust mode" style="font-size:36px"></i>
     <div class="icon-bar">
       <a class="active" href="#"><i class="fa fa-home"></i></a> 
@@ -168,6 +231,48 @@
         <li><a class="fa fa-file-pdf-o" style="color:rgb(3, 135, 80)" href="Files/Plan_de_position_2.pdf"> Plan de position 2ème étage</a></li>
       </ul>
     </div>
+       <footer class="page-footer teal darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l3 s12 offset-l9">
+            <h5 id="contact" class="right-align footer_title">Contact</h5>
+            <ul class="footer_ul">
+              <li class="right-align">
+                <a href="mailto:shemajean@icloud.com">shemajean@icloud.com </a>
+              </li>
+              <li class="right-align">
+                <p>Tél. +32 (0) 468380035</p>
+              </li>
+            </ul>
+            <ul class="footer_ul">
+              <li class="social">
+                <a
+                  href="https://www.linkedin.com/in/jean-shema-aa0272105/"
+                  target="_blank"
+                  ><i
+                    class="fa-brands footer_icon icon_white fa-linkedin-in"
+                  ></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/jean_de_la_croix_shema"
+                  target="_blank"
+                  ><i class="fa-brands footer_icon icon_white fa-instagram"></i
+                ></a>
+                <a href="https://twitter.com/shemajean5" target="_blank"
+                  ><i class="fa-brands footer_icon icon_white fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright center">
+        <div class="container">
+          <span>Site conçu avec ❤️ par</span>
+          <a class="orange-text text-lighten-3">Jean SHEMA et Alain Prestige</a>
+        </div>
+      </div>
+    </footer>
     
     <script>
     function myFunction()
